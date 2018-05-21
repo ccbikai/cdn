@@ -1,6 +1,6 @@
 {
   "name": "cdn",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Github 做 CDN 存储，jsDelivr 做 CDN 服务器",
   "main": "index.js",
   "scripts": {
