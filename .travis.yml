@@ -12,5 +12,5 @@ before_script:
 - git config --global user.email "travis@miantiao.me"
 
 script:
-- git push -f https://$GITHUB_KEY@github.com/ccbikai/cdn.git `npm version patch -m "%s [ci skip]"`
-- git push -f https://$GITHUB_KEY@github.com/ccbikai/cdn.git HEAD:master
+- git push -f https://$GITHUB_KEY@github.com/$TRAVIS_REPO_SLUG.git `npm version patch -m "%s [ci skip]"`
+- git push -f https://$GITHUB_KEY@github.com/$TRAVIS_REPO_SLUG.git HEAD:master
