@@ -30,8 +30,8 @@ before_script:
 - git config --global user.email "travis@miantiao.me"
 
 script:
-- git push -f https://$GITHUB_KEY@github.com/ccbikai/cdn.git `npm version patch -m "%s [ci skip]"` # 打 Tag，发布到 Github Release, 使用 [ci skip] 调过 CI， 防止死循环
-- git push -f https://$GITHUB_KEY@github.com/ccbikai/cdn.git HEAD:master #将新版本文件推送回 Github
+- git push -f https://$GITHUB_KEY@github.com/$TRAVIS_REPO_SLUG.git `npm version patch -m "%s [ci skip]"` # 打 Tag，发布到 Github Release, 使用 [ci skip] 调过 CI， 防止死循环
+- git push -f https://$GITHUB_KEY@github.com/$TRAVIS_REPO_SLUG.git HEAD:master #将新版本文件推送回 Github
 ```
 
 ## CDN 效果
