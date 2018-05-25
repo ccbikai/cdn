@@ -40,6 +40,11 @@ jsDelivr 服务器分布，有服务器位于中国。
 
 ![jsDelivr](https://cdn.jsdelivr.net/gh/ccbikai/cdn/example/jsdelivr.jpg)
 
+## 文件浏览和流量统计
+
+jsDelivr 提供了一个可以看 CDN 文件和使用流量的地址：<https://www.jsdelivr.com/package/gh/ccbikai/cdn> 。
+
+[![jsDelivr File](https://cdn.jsdelivr.net/gh/ccbikai/cdn/example/jsdelivr-file.png)](https://cdn.jsdelivr.net/gh/ccbikai/cdn/example/jsdelivr-file.png)
 
 ## 演示
 1. https://cdn.jsdelivr.net/gh/ccbikai/cdn/README.md
